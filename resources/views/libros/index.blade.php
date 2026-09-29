@@ -10,7 +10,10 @@
 
     <div class="container py-5">
         <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 mb-4">
-            <h1 class="h2 text-primary fw-bold mb-0">📚 Biblioteca Virtual</h1>
+            <h1 class="h2 text-primary fw-bold mb-0 d-flex align-items-center gap-2">
+                <img src="{{ asset('images/logo-iest.jpg') }}" alt="Logo IEST César Augusto Guardia Mayorga" class="rounded-circle" style="width: 40px; height: 40px; object-fit: cover;">
+                📚 Biblioteca Virtual
+            </h1>
             <nav class="d-flex gap-2">
                 <a href="{{ route('autores.index') }}" class="btn btn-sm btn-outline-secondary">Autores</a>
                 <a href="{{ route('editores.index') }}" class="btn btn-sm btn-outline-secondary">Editoriales</a>
